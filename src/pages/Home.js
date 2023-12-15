@@ -7,17 +7,17 @@ function Home() {
       <h2>Data Analyst</h2>
       <h2>
         Read more
-        <Link to="/About" className="blue">
+        <Link to="resume-web/About" className="blue">
           {" "}
           about me{" "}
         </Link>
         ,
-        <Link to="/Contact" className="red">
+        <Link to="resume-web/Contact" className="red">
           {" "}
           contact me{" "}
         </Link>{" "}
         or look at my
-        <Link to="/Dashboard" className="yellow">
+        <Link to="resume-web/Dashboard" className="yellow">
           {" "}
           example dashboard.
         </Link>
