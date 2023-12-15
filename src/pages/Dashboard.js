@@ -10,7 +10,7 @@ function Home() {
     `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=7f8c45f89464ee582892e3cfa07c27bc&units=metric`
   );
   const [fiveDayWeatherString, setFiveDayWeatherString] = useState(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=7f8c45f89464ee582892e3cfa07c27bc&units=metric`
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=7f8c45f89464ee582892e3cfa07c27bc&units=metric`
   );
 
   const [hourlyWeather, setHourlyWeather] = useState(null);
