@@ -3,12 +3,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Navbar> </Navbar>
         <Routes>
           <Route index element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="dashboard" element={<Dashboard />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
